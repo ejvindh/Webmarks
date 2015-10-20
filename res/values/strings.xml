@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Webmarks</string>
+    <string name="action_editList">Edit List</string>
+    <string name="action_addEntry">Add Entry</string>
+    <string name="title_activity_edit_links">Edit Link-list</string>
+    <string name="title_activity_add_links">Add Link</string>
+    <string name="addLinkTitle">Title for new link:</string>
+    <string name="addLinkLink">Url:</string>
+    
+</resources>

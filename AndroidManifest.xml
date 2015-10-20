@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.ejvindh.webmarks" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21"/>
+    <application android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.ejvindh.webmarks.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+	    <activity
+	        android:name=".EditLinks"
+	        android:label="@string/title_activity_edit_links"
+	        android:parentActivityName="com.ejvindh.webmarks.MainActivity" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.ejvindh.webmarks.MainActivity" />
+	    </activity>
+	    <activity
+	        android:name=".AddLinks"
+	        android:label="@string/title_activity_add_links"
+	        android:theme="@android:style/Theme.Dialog"
+	        android:parentActivityName="com.ejvindh.webmarks.MainActivity" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.ejvindh.webmarks.MainActivity" />
+	    </activity>
+    </application>
+</manifest>
